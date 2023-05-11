@@ -1,18 +1,5 @@
-1. The target for this challenge is to create:
-    1.1. Ticker column and list all unique ticker name
-    1.2. Yearly Change column and get the difference by subtractiong Closing Price and Opening price
-    1.3. Change Rate (%)
-    1.4. Total Volume of each unique ticker name
-
-2. Make a way to calculate which has:
-    2.1. yearly greatest increase through percentage
-    2.2. yearly greatest decrease through percentage
-    2.3. yearly greatest total volume
-
-3. loop the whole code to automate each sheet
-
-
-
+Attribute VB_Name = "Module1"
+Sub getSummary()
   Dim ws As Worksheet
  
   For Each ws In Worksheets
@@ -119,3 +106,6 @@
     
     'this code is indication that the program is already done.
     MsgBox ("Workbook summarized.")
+
+
+End Sub
